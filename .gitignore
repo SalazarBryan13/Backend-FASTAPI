@@ -1,0 +1,24 @@
+# Archivos de entorno y configuración sensible
+.env
+.env.local
+.env.*.local
+
+# Entorno virtual
+.venv/
+venv/
+env/
+ENV/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# Archivos de base de datos local
+*.db
+*.sqlite3
